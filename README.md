@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/andrej-griniuk/laravel-refresh-and-seed-database.svg?branch=master)](https://travis-ci.org/andrej-griniuk/laravel-refresh-and-seed-database)
+[![Build Status](https://img.shields.io/travis/andrej-griniuk/laravel-refresh-and-seed-database/master.svg?style=flat-square)](https://travis-ci.org/andrej-griniuk/laravel-refresh-and-seed-database)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 # RefreshAndSeedDatabase trait for Laravel
