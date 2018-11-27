@@ -1,0 +1,35 @@
+{
+  "name": "andrej-griniuk/laravel-reresh-and-seed-database",
+  "description": "RefreshAndSeedDatabase trait",
+  "keywords": [
+    "laravel",
+    "database",
+    "tests"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrej Griniuk",
+      "email": "andrej.griniuk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "laravel/framework": "~5.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RefreshAndSeedDatabase\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+        "RefreshAndSeedDatabase\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
