@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/andrej-griniuk/laravel-refresh-and-seed-database.svg?branch=master)](https://travis-ci.org/andrej-griniuk/laravel-refresh-and-seed-database)
 [![License](https://poser.pugx.org/andrej-griniuk/laravel-refresh-and-seed-database/license)](https://packagist.org/packages/andrej-griniuk/laravel-refresh-and-seed-database)
 
-
 # RefreshAndSeedDatabase trait for Laravel
 
 This trait extends Laravel's [RefreshDatabase trait](https://laravel.com/docs/5.7/database-testing#resetting-the-database-after-each-test) functionality to seed the database after running migrations.
