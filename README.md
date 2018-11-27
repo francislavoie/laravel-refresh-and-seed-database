@@ -7,7 +7,7 @@ This trait extends Laravel's [RefreshDatabase trait](https://laravel.com/docs/5.
 
 ## Requirements
 
-- Laravel 5.7+
+- Laravel 5.6+
 
 ## Installation
 
