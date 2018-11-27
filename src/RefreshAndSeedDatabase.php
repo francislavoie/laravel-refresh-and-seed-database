@@ -50,6 +50,7 @@ trait RefreshAndSeedDatabase
     protected function shouldSeed()
     {
         return property_exists($this, 'seed')
-            ? $this->seed : true;
+            ? $this->seed
+            : true;
     }
 }
