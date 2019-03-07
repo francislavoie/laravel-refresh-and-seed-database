@@ -17,6 +17,20 @@ trait RefreshAndSeedDatabase
     use RefreshDatabase;
 
     /**
+     * Refresh the in-memory database.
+     *
+     * @return void
+     */
+    protected function refreshInMemoryDatabase()
+    {
+        $this->artisan('migrate', $this->shouldSeed() ? [
+            '--seed' => true,
+        ] : []);
+
+        $this->app[Kernel::class]->setArtisan(null);
+    }
+    
+    /**
      * Refresh and seed a conventional test database.
      *
      * @return void
